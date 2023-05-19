@@ -23,7 +23,7 @@ bibtex_bibfiles:
 repository:
   url                       : https://github.com/ryanblumenow/avalondatalab  # Online location of book
   path_to_book              : path/to/book  # Optional path to your book, relative to the repository root
-  branch                    : main  # Which branch of the repository should be used when creating links (optional)
+  branch                    : gh-pages  # Which branch of the repository should be used when creating links (optional)
 
 launch_buttons:
   thebe                  : true
