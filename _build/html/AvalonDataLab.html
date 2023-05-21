@@ -465,7 +465,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "ef4b1e6649e5426f9ff352decc44913c"}</script><script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "05fd78ca28694fd79b130ce27ba6a56d"}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "e5f6bbd48cef46f98b9eaf361a8b8f9a", "version_major": 2, "version_minor": 0}</script><script type="application/vnd.jupyter.widget-view+json">{"model_id": "72a7d4e1d1564628b78ab0e7a94c9363", "version_major": 2, "version_minor": 0}</script></div>
 </div>
 <p>Ongoing EDA</p>
 <div class="cell docutils container">
@@ -507,7 +507,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/8077eb731b77cd44145391029d518e2ee9022da0731f3a127b7c68530faa1546.png" src="_images/8077eb731b77cd44145391029d518e2ee9022da0731f3a127b7c68530faa1546.png" />
+<img alt="_images/339713381e523c8764c1a44392fd65e3bc3aa8256ebf3a22fb539caf8cea1059.png" src="_images/339713381e523c8764c1a44392fd65e3bc3aa8256ebf3a22fb539caf8cea1059.png" />
 </div>
 </div>
 <p>Analyzing incomes and liabilities across ages</p>
@@ -550,7 +550,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "d32a1e6faeee4e19bc0d8961eb0df876"}</script><script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "2c4d1da1c0e04497b37d43c68ceda864"}</script><script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "fe38c88714f341799d640d958a0d0d8a"}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "618e26d32a5b4917b5bf3662ae64714f", "version_major": 2, "version_minor": 0}</script><script type="application/vnd.jupyter.widget-view+json">{"model_id": "776df4c3eeda450ab994c8b5ec68c011", "version_major": 2, "version_minor": 0}</script><script type="application/vnd.jupyter.widget-view+json">{"model_id": "0de1e41b305d45f78469fdb97b0de0cc", "version_major": 2, "version_minor": 0}</script></div>
 </div>
 <p>Analyzing demographics of clients per advisor</p>
 <div class="cell docutils container">
@@ -600,21 +600,21 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0            NOREEN VAN ZYL
-1           ZINHLE MALULEKE
-2          YVONNE ALEXANDER
-3               DAVID BEARD
-4             MPHO NHLABANE
-               ...         
-2243      KENNETH WILKINSON
-2244    Performance Testing
-2245           GERT JORDAAN
-2246          NICOLE NAIDOO
-2247        TEBOGO RATSATSI
-Name: full_name, Length: 2248, dtype: object
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1030         AFSANA ABBUBAKER
+1937       ZAAHID ABDUL HAMID
+1949           WARREN ABRAHAM
+633          DESIREE ABRAHAMS
+1523         STEPHEN ABRAHAMS
+                ...          
+2110       Henry van Deventer
+1104      Charlene van Staden
+2191           Hentus van Wyk
+1703    Theunis van der Stoep
+606       Johan van der Vyver
+Name: full_name, Length: 2247, dtype: object
 </pre></div>
 </div>
-<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "a4166fad0c29444ab36c09c65f41d9ae"}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "9a0ee63423c84ab599e9ac7a6d705fc9", "version_major": 2, "version_minor": 0}</script></div>
 </div>
 <p>Analyzing product types by demographic groups</p>
 <div class="cell docutils container">
@@ -807,128 +807,32 @@ Name: full_name, Length: 2248, dtype: object
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">AttributeError</span><span class="g g-Whitespace">                            </span>Traceback (most recent call last)
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\fuzzywuzzy\process.py</span> in <span class="ni">extractWithoutOrder</span><span class="nt">(query, choices, processor, scorer, score_cutoff)</span>
-<span class="g g-Whitespace">    </span><span class="mi">107</span>         <span class="c1"># See if choices is a dictionary-like object.</span>
-<span class="ne">--&gt; </span><span class="mi">108</span>         <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">choice</span> <span class="ow">in</span> <span class="n">choices</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-<span class="g g-Whitespace">    </span><span class="mi">109</span>             <span class="n">processed</span> <span class="o">=</span> <span class="n">pre_processor</span><span class="p">(</span><span class="n">processor</span><span class="p">(</span><span class="n">choice</span><span class="p">))</span>
-
-<span class="ne">AttributeError</span>: &#39;dict_keys&#39; object has no attribute &#39;items&#39;
-
-<span class="n">During</span> <span class="n">handling</span> <span class="n">of</span> <span class="n">the</span> <span class="n">above</span> <span class="n">exception</span><span class="p">,</span> <span class="n">another</span> <span class="n">exception</span> <span class="n">occurred</span><span class="p">:</span>
-
-<span class="ne">KeyboardInterrupt</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
-<span class="nn">~\AppData\Local\Temp\ipykernel_23496\2491885985.py</span> in <span class="ni">&lt;cell line: 56&gt;</span><span class="nt">()</span>
-<span class="g g-Whitespace">     </span><span class="mi">54</span> 
-<span class="g g-Whitespace">     </span><span class="mi">55</span> <span class="c1"># Apply fuzzy matching</span>
-<span class="ne">---&gt; </span><span class="mi">56</span> <span class="n">df_clients_holdings_assets_users</span><span class="p">[</span><span class="s1">&#39;maritalstatus&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_clients_holdings_assets_users</span><span class="p">[</span><span class="s1">&#39;maritalstatus&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">process</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">mapping</span><span class="o">.</span><span class="n">keys</span><span class="p">())[</span><span class="mi">0</span><span class="p">])</span>
-<span class="g g-Whitespace">     </span><span class="mi">57</span> 
-<span class="g g-Whitespace">     </span><span class="mi">58</span> <span class="c1"># Replace asset types with standardized asset types using mapping dictionary</span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\series.py</span> in <span class="ni">apply</span><span class="nt">(self, func, convert_dtype, args, **kwargs)</span>
-<span class="g g-Whitespace">   </span><span class="mi">4769</span>         <span class="n">dtype</span><span class="p">:</span> <span class="n">float64</span>
-<span class="g g-Whitespace">   </span><span class="mi">4770</span><span class="w">         </span><span class="sd">&quot;&quot;&quot;</span>
-<span class="ne">-&gt; </span><span class="mi">4771</span><span class="sd">         return SeriesApply(self, func, convert_dtype, args, kwargs).apply()</span>
-<span class="g g-Whitespace">   </span><span class="mi">4772</span><span class="sd"> </span>
-<span class="g g-Whitespace">   </span><span class="mi">4773</span><span class="sd">     def _reduce(</span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\apply.py</span> in <span class="ni">apply</span><span class="nt">(self)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1121</span><span class="sd"> </span>
-<span class="g g-Whitespace">   </span><span class="mi">1122</span><span class="sd">         # self.f is Callable</span>
-<span class="ne">-&gt; </span><span class="mi">1123</span><span class="sd">         return self.apply_standard()</span>
-<span class="g g-Whitespace">   </span><span class="mi">1124</span><span class="sd"> </span>
-<span class="g g-Whitespace">   </span><span class="mi">1125</span><span class="sd">     def agg(self):</span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\apply.py</span> in <span class="ni">apply_standard</span><span class="nt">(self)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1172</span><span class="sd">             else:</span>
-<span class="g g-Whitespace">   </span><span class="mi">1173</span><span class="sd">                 values = obj.astype(object)._values</span>
-<span class="ne">-&gt; </span><span class="mi">1174</span><span class="sd">                 mapped = lib.map_infer(</span>
-<span class="g g-Whitespace">   </span><span class="mi">1175</span><span class="sd">                     values,</span>
-<span class="g g-Whitespace">   </span><span class="mi">1176</span><span class="sd">                     f,</span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\_libs\lib.pyx</span> in <span class="ni">pandas._libs.lib.map_infer</span><span class="nt">()</span>
-
-<span class="nn">~\AppData\Local\Temp\ipykernel_23496\2491885985.py</span> in <span class="ni">&lt;lambda&gt;</span><span class="nt">(x)</span>
-<span class="g g-Whitespace">     </span><span class="mi">54</span><span class="sd"> </span>
-<span class="g g-Whitespace">     </span><span class="mi">55</span><span class="sd"> # Apply fuzzy matching</span>
-<span class="ne">---&gt; </span><span class="mi">56</span><span class="sd"> df_clients_holdings_assets_users[&#39;maritalstatus&#39;] = df_clients_holdings_assets_users[&#39;maritalstatus&#39;].apply(lambda x: process.extractOne(x, mapping.keys())[0])</span>
-<span class="g g-Whitespace">     </span><span class="mi">57</span><span class="sd"> </span>
-<span class="g g-Whitespace">     </span><span class="mi">58</span><span class="sd"> # Replace asset types with standardized asset types using mapping dictionary</span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\fuzzywuzzy\process.py</span> in <span class="ni">extractOne</span><span class="nt">(query, choices, processor, scorer, score_cutoff)</span>
-<span class="g g-Whitespace">    </span><span class="mi">218</span><span class="sd">     best_list = extractWithoutOrder(query, choices, processor, scorer, score_cutoff)</span>
-<span class="g g-Whitespace">    </span><span class="mi">219</span><span class="sd">     try:</span>
-<span class="ne">--&gt; </span><span class="mi">220</span><span class="sd">         return max(best_list, key=lambda i: i[1])</span>
-<span class="g g-Whitespace">    </span><span class="mi">221</span><span class="sd">     except ValueError:</span>
-<span class="g g-Whitespace">    </span><span class="mi">222</span><span class="sd">         return None</span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\fuzzywuzzy\process.py</span> in <span class="ni">extractWithoutOrder</span><span class="nt">(query, choices, processor, scorer, score_cutoff)</span>
-<span class="g g-Whitespace">    </span><span class="mi">115</span><span class="sd">         for choice in choices:</span>
-<span class="g g-Whitespace">    </span><span class="mi">116</span><span class="sd">             processed = pre_processor(processor(choice))</span>
-<span class="ne">--&gt; </span><span class="mi">117</span><span class="sd">             score = scorer(processed_query, processed)</span>
-<span class="g g-Whitespace">    </span><span class="mi">118</span><span class="sd">             if score &gt;= score_cutoff:</span>
-<span class="g g-Whitespace">    </span><span class="mi">119</span><span class="sd">                 yield (choice, score)</span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\fuzzywuzzy\fuzz.py</span> in <span class="ni">WRatio</span><span class="nt">(s1, s2, force_ascii, full_process)</span>
-<span class="g g-Whitespace">    </span><span class="mi">274</span><span class="sd">     partial_scale = .90</span>
-<span class="g g-Whitespace">    </span><span class="mi">275</span><span class="sd"> </span>
-<span class="ne">--&gt; </span><span class="mi">276</span><span class="sd">     base = ratio(p1, p2)</span>
-<span class="g g-Whitespace">    </span><span class="mi">277</span><span class="sd">     len_ratio = float(max(len(p1), len(p2))) / min(len(p1), len(p2))</span>
-<span class="g g-Whitespace">    </span><span class="mi">278</span><span class="sd"> </span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\fuzzywuzzy\utils.py</span> in <span class="ni">decorator</span><span class="nt">(*args, **kwargs)</span>
-<span class="g g-Whitespace">     </span><span class="mi">36</span><span class="sd">         if args[0] is None or args[1] is None:</span>
-<span class="g g-Whitespace">     </span><span class="mi">37</span><span class="sd">             return 0</span>
-<span class="ne">---&gt; </span><span class="mi">38</span><span class="sd">         return func(*args, **kwargs)</span>
-<span class="g g-Whitespace">     </span><span class="mi">39</span><span class="sd">     return decorator</span>
-<span class="g g-Whitespace">     </span><span class="mi">40</span><span class="sd"> </span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\fuzzywuzzy\utils.py</span> in <span class="ni">decorator</span><span class="nt">(*args, **kwargs)</span>
-<span class="g g-Whitespace">     </span><span class="mi">27</span><span class="sd">         if args[0] == args[1]:</span>
-<span class="g g-Whitespace">     </span><span class="mi">28</span><span class="sd">             return 100</span>
-<span class="ne">---&gt; </span><span class="mi">29</span><span class="sd">         return func(*args, **kwargs)</span>
-<span class="g g-Whitespace">     </span><span class="mi">30</span><span class="sd">     return decorator</span>
-<span class="g g-Whitespace">     </span><span class="mi">31</span><span class="sd"> </span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\fuzzywuzzy\utils.py</span> in <span class="ni">decorator</span><span class="nt">(*args, **kwargs)</span>
-<span class="g g-Whitespace">     </span><span class="mi">45</span><span class="sd">         if len(args[0]) == 0 or len(args[1]) == 0:</span>
-<span class="g g-Whitespace">     </span><span class="mi">46</span><span class="sd">             return 0</span>
-<span class="ne">---&gt; </span><span class="mi">47</span><span class="sd">         return func(*args, **kwargs)</span>
-<span class="g g-Whitespace">     </span><span class="mi">48</span><span class="sd">     return decorator</span>
-<span class="g g-Whitespace">     </span><span class="mi">49</span><span class="sd"> </span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\fuzzywuzzy\fuzz.py</span> in <span class="ni">ratio</span><span class="nt">(s1, s2)</span>
-<span class="g g-Whitespace">     </span><span class="mi">26</span><span class="sd"> </span>
-<span class="g g-Whitespace">     </span><span class="mi">27</span><span class="sd">     m = SequenceMatcher(None, s1, s2)</span>
-<span class="ne">---&gt; </span><span class="mi">28</span><span class="sd">     return utils.intr(100 * m.ratio())</span>
-<span class="g g-Whitespace">     </span><span class="mi">29</span><span class="sd"> </span>
-<span class="g g-Whitespace">     </span><span class="mi">30</span><span class="sd"> </span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\difflib.py</span> in <span class="ni">ratio</span><span class="nt">(self)</span>
-<span class="g g-Whitespace">    </span><span class="mi">617</span><span class="sd">         &quot;&quot;&quot;</span>
-<span class="g g-Whitespace">    </span><span class="mi">618</span> 
-<span class="nn">--&gt; 619         matches = sum(triple[-1] for triple</span> in <span class="ni">self.get_matching_blocks</span><span class="nt">())</span>
-<span class="g g-Whitespace">    </span><span class="mi">620</span>         <span class="k">return</span> <span class="n">_calculate_ratio</span><span class="p">(</span><span class="n">matches</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">a</span><span class="p">)</span> <span class="o">+</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">b</span><span class="p">))</span>
-<span class="g g-Whitespace">    </span><span class="mi">621</span> 
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\difflib.py</span> in <span class="ni">get_matching_blocks</span><span class="nt">(self)</span>
-<span class="g g-Whitespace">    </span><span class="mi">487</span> 
-<span class="g g-Whitespace">    </span><span class="mi">488</span>         <span class="n">non_adjacent</span><span class="o">.</span><span class="n">append</span><span class="p">(</span> <span class="p">(</span><span class="n">la</span><span class="p">,</span> <span class="n">lb</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="p">)</span>
-<span class="ne">--&gt; </span><span class="mi">489</span>         <span class="bp">self</span><span class="o">.</span><span class="n">matching_blocks</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="n">Match</span><span class="o">.</span><span class="n">_make</span><span class="p">,</span> <span class="n">non_adjacent</span><span class="p">))</span>
-<span class="g g-Whitespace">    </span><span class="mi">490</span>         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">matching_blocks</span>
-<span class="g g-Whitespace">    </span><span class="mi">491</span> 
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\collections\__init__.py</span> in <span class="ni">_make</span><span class="nt">(cls, iterable)</span>
-<span class="g g-Whitespace">    </span><span class="mi">418</span>         <span class="fm">__new__</span><span class="o">.</span><span class="vm">__defaults__</span> <span class="o">=</span> <span class="n">defaults</span>
-<span class="g g-Whitespace">    </span><span class="mi">419</span> 
-<span class="ne">--&gt; </span><span class="mi">420</span>     <span class="nd">@classmethod</span>
-<span class="g g-Whitespace">    </span><span class="mi">421</span>     <span class="k">def</span> <span class="nf">_make</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">iterable</span><span class="p">):</span>
-<span class="g g-Whitespace">    </span><span class="mi">422</span>         <span class="n">result</span> <span class="o">=</span> <span class="n">tuple_new</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">iterable</span><span class="p">)</span>
-
-<span class="ne">KeyboardInterrupt</span>: 
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[None &#39;Male&#39; &#39;Female&#39; &#39;None&#39;]
+Marital Status                                        Gender    Most Common Asset Type
+----------------------------------------------------  --------  ------------------------
+In Community of Property                              Female    Thailand
+In Community of Property                              Male      Thailand
+Male Common Law                                       Female    Sandton
+Male Common Law                                       Male      Primary Residence
+Male Divorced                                         Female    Golf
+Male Divorced                                         Male      Golf
+Male Engaged                                          Female    Golf
+Male Engaged                                          Male      Golf
+Male Married                                          Male      Livestock
+Male Single                                           Female    Golf
+Male Single                                           Male      Golf
+Male Single                                           None      Golf
+Male Widowed                                          Female    Golf
+Male Widowed                                          Male      Golf
+Married In Community of Property                      Female    Other Property
+Married In Community of Property                      Male      Sandton
+Married Out of Community of Property with Accrual     Female    Golf
+Married Out of Community of Property with Accrual     Male      Golf
+Married Out of Community of Property without Accrual  Female    Golf
+Married Out of Community of Property without Accrual  Male      Golf
 </pre></div>
 </div>
+<img alt="_images/97f08a23fad18540f43098795024f0e39538a5bcd09b579ac26a22686088018b.png" src="_images/97f08a23fad18540f43098795024f0e39538a5bcd09b579ac26a22686088018b.png" />
 </div>
 </div>
 <div class="alert alert-block alert-info">
