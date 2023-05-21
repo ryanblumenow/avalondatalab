@@ -30,8 +30,8 @@ nbclient.exceptions.CellTimeoutError: A cell timed out while it was being execut
 The message was: Cell execution timed out.
 Here is a preview of the cell contents:
 -------------------
-['import pyodbc', 'import pandas as pd', 'import seaborn as sns', 'import matplotlib.pyplot as plt', 'from sklearn.cluster import KMeans']
+['# Merge data', '# lst = [df_clients_holdings_assets_users]', '# del df_clients_holdings_assets_users', '# del lst', "df_clients = df_clients.rename(columns={'clientid': 'individualclientid'})"]
 ...
-["#     df = df.rename(columns={'age_x': 'age', 'amount_x': 'income', 'amount_y': 'liabilities'})", '', '#     return df', '', '# df = clean_data(df_clients, df_income, df_liabilities)']
+["ax.set_xlabel('Gender')", "ax.set_ylabel('Marital Status')", '', '# Show the plot', 'plt.show()']
 -------------------
 
