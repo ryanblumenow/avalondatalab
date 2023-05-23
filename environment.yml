@@ -1,0 +1,16 @@
+name: avalondatalab
+channels:
+  - default
+dependencies:
+  - python=3.8
+  - sphinx
+  - pip
+  - pandas
+  - matplotlib
+  - pyodbc
+  - seaborn
+  - sklearn
+  - warnings
+  - pip:
+    - quantecon
+    - jupyter-book
