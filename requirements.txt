@@ -7,3 +7,4 @@ pyodbc
 seaborn
 sklearn
 warnings
+unixodbc-dev

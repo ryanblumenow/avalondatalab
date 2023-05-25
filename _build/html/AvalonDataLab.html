@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Avalon DataLab &#8212; Avalon DataLab</title>
+    <title>title: AvalonDataLab description: Exploring Avalon data show-code: False &#8212; Avalon DataLab</title>
   
   
   
@@ -158,7 +158,10 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="home.html">Allegiance Consulting</a></li>
 
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Avalon DataLab</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">title: AvalonDataLab
+description: Exploring Avalon data
+show-code: False</a></li>
+
 </ul>
 
     </div>
@@ -331,7 +334,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -342,11 +347,25 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Avalon DataLab</h1>
+    <h1>title: AvalonDataLab
+description: Exploring Avalon data
+show-code: False</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">title: AvalonDataLab
+description: Exploring Avalon data
+show-code: False</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#avalon-datalab">Avalon DataLab</a></li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -356,15 +375,19 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="avalon-datalab">
+  <hr class="docutils" />
+<section id="title-avalondatalab-description-exploring-avalon-data-show-code-false">
+<h1>title: AvalonDataLab
+description: Exploring Avalon data
+show-code: False<a class="headerlink" href="#title-avalondatalab-description-exploring-avalon-data-show-code-false" title="Permalink to this heading">#</a></h1>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="avalon-datalab">
 <h1>Avalon DataLab<a class="headerlink" href="#avalon-datalab" title="Permalink to this heading">#</a></h1>
 <right>
 <img src="https://www.allegiance.co.za/img/allegiance/allegiance_logo_new.png" width=180>
 </right><h3 align="left"><font color='teal'>Read in data and prepare analytical environment</font></h3><div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">!</span>pip<span class="w"> </span>install<span class="w"> </span>pyodbc
-<span class="o">!</span>conda<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>unixodbc-dev<span class="w"> </span>
-<span class="o">!</span>conda<span class="w"> </span>apt-get<span class="w"> </span>update
 <span class="kn">import</span> <span class="nn">pyodbc</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
@@ -419,14 +442,6 @@ document.write(`
 </div>
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[notice] A new release of pip available: 22.3.1 -&gt; 23.1.2
 [notice] To update, run: python.exe -m pip install --upgrade pip
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;conda&#39; is not recognized as an internal or external command,
-operable program or batch file.
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&#39;conda&#39; is not recognized as an internal or external command,
-operable program or batch file.
 </pre></div>
 </div>
 </div>
@@ -503,7 +518,47 @@ operable program or batch file.
 </div>
 </div>
 <div class="cell_output docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "ff48304f057f4610a51ea98a7aa0f206"}</script><script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "ab0fa864ea6643f89be4a287252bda40"}</script></div>
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">ImportError</span><span class="g g-Whitespace">                               </span>Traceback (most recent call last)
+<span class="ne">C</span>:\Users\RYANBL~1\AppData\Local\Temp/ipykernel_18968/392929638.py in &lt;module&gt;
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="kn">import</span> <span class="nn">dtale</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">import</span> <span class="nn">ipywidgets</span> <span class="k">as</span> <span class="nn">widgets</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> 
+<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="c1"># Suppress FutureWarning from pandas</span>
+
+<span class="o">~</span>\<span class="n">AppData</span>\<span class="n">Local</span>\<span class="n">Programs</span>\<span class="n">Python</span>\<span class="n">Python310</span>\<span class="n">lib</span>\<span class="n">site</span><span class="o">-</span><span class="n">packages</span>\<span class="n">dtale</span>\<span class="fm">__init__</span><span class="o">.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="kn">import</span> <span class="nn">warnings</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> 
+<span class="ne">----&gt; </span><span class="mi">3</span> <span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Blueprint</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> 
+<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="k">with</span> <span class="n">warnings</span><span class="o">.</span><span class="n">catch_warnings</span><span class="p">():</span>
+
+<span class="o">~</span>\<span class="n">AppData</span>\<span class="n">Local</span>\<span class="n">Programs</span>\<span class="n">Python</span>\<span class="n">Python310</span>\<span class="n">lib</span>\<span class="n">site</span><span class="o">-</span><span class="n">packages</span>\<span class="n">flask</span>\<span class="fm">__init__</span><span class="o">.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> 
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="kn">from</span> <span class="nn">.</span> <span class="kn">import</span> <span class="n">json</span> <span class="k">as</span> <span class="n">json</span>
+<span class="ne">----&gt; </span><span class="mi">5</span> <span class="kn">from</span> <span class="nn">.app</span> <span class="kn">import</span> <span class="n">Flask</span> <span class="k">as</span> <span class="n">Flask</span>
+<span class="g g-Whitespace">      </span><span class="mi">6</span> <span class="kn">from</span> <span class="nn">.app</span> <span class="kn">import</span> <span class="n">Request</span> <span class="k">as</span> <span class="n">Request</span>
+<span class="g g-Whitespace">      </span><span class="mi">7</span> <span class="kn">from</span> <span class="nn">.app</span> <span class="kn">import</span> <span class="n">Response</span> <span class="k">as</span> <span class="n">Response</span>
+
+<span class="o">~</span>\<span class="n">AppData</span>\<span class="n">Local</span>\<span class="n">Programs</span>\<span class="n">Python</span>\<span class="n">Python310</span>\<span class="n">lib</span>\<span class="n">site</span><span class="o">-</span><span class="n">packages</span>\<span class="n">flask</span>\<span class="n">app</span><span class="o">.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">     </span><span class="mi">32</span> <span class="kn">from</span> <span class="nn">werkzeug.wrappers</span> <span class="kn">import</span> <span class="n">Response</span> <span class="k">as</span> <span class="n">BaseResponse</span>
+<span class="g g-Whitespace">     </span><span class="mi">33</span> 
+<span class="ne">---&gt; </span><span class="mi">34</span> <span class="kn">from</span> <span class="nn">.</span> <span class="kn">import</span> <span class="n">cli</span>
+<span class="g g-Whitespace">     </span><span class="mi">35</span> <span class="kn">from</span> <span class="nn">.</span> <span class="kn">import</span> <span class="n">typing</span> <span class="k">as</span> <span class="n">ft</span>
+<span class="g g-Whitespace">     </span><span class="mi">36</span> <span class="kn">from</span> <span class="nn">.config</span> <span class="kn">import</span> <span class="n">Config</span>
+
+<span class="o">~</span>\<span class="n">AppData</span>\<span class="n">Local</span>\<span class="n">Programs</span>\<span class="n">Python</span>\<span class="n">Python310</span>\<span class="n">lib</span>\<span class="n">site</span><span class="o">-</span><span class="n">packages</span>\<span class="n">flask</span>\<span class="n">cli</span><span class="o">.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="g g-Whitespace">     </span><span class="mi">13</span> 
+<span class="g g-Whitespace">     </span><span class="mi">14</span> <span class="kn">import</span> <span class="nn">click</span>
+<span class="ne">---&gt; </span><span class="mi">15</span> <span class="kn">from</span> <span class="nn">click.core</span> <span class="kn">import</span> <span class="n">ParameterSource</span>
+<span class="g g-Whitespace">     </span><span class="mi">16</span> <span class="kn">from</span> <span class="nn">werkzeug</span> <span class="kn">import</span> <span class="n">run_simple</span>
+<span class="g g-Whitespace">     </span><span class="mi">17</span> <span class="kn">from</span> <span class="nn">werkzeug.serving</span> <span class="kn">import</span> <span class="n">is_running_from_reloader</span>
+
+<span class="ne">ImportError</span>: cannot import name &#39;ParameterSource&#39; from &#39;click.core&#39; (C:\Users\RyanBlumenow\AppData\Local\Programs\Python\Python310\lib\site-packages\click\core.py)
+</pre></div>
+</div>
+</div>
 </div>
 <p>Ongoing EDA</p>
 <div class="cell docutils container">
@@ -545,7 +600,7 @@ operable program or batch file.
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/0d36bf2e47cc89b3ea681bdc179732452885208c177ad2438896e0c96d4eeda2.png" src="_images/0d36bf2e47cc89b3ea681bdc179732452885208c177ad2438896e0c96d4eeda2.png" />
+<img alt="_images/339713381e523c8764c1a44392fd65e3bc3aa8256ebf3a22fb539caf8cea1059.png" src="_images/339713381e523c8764c1a44392fd65e3bc3aa8256ebf3a22fb539caf8cea1059.png" />
 </div>
 </div>
 <p>Analyzing incomes and liabilities across ages</p>
@@ -588,7 +643,7 @@ operable program or batch file.
 </div>
 </div>
 <div class="cell_output docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "32956d6c549d481c84339b2bd45a1b6b"}</script><script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "63d153f17ab94cd190f243af4e842db8"}</script><script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "84d9a7b038394ad185787f51394d858f"}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "618e26d32a5b4917b5bf3662ae64714f", "version_major": 2, "version_minor": 0}</script><script type="application/vnd.jupyter.widget-view+json">{"model_id": "776df4c3eeda450ab994c8b5ec68c011", "version_major": 2, "version_minor": 0}</script><script type="application/vnd.jupyter.widget-view+json">{"model_id": "0de1e41b305d45f78469fdb97b0de0cc", "version_major": 2, "version_minor": 0}</script></div>
 </div>
 <p>Analyzing demographics of clients per advisor</p>
 <div class="cell docutils container">
@@ -638,21 +693,21 @@ operable program or batch file.
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0            NOREEN VAN ZYL
-1           ZINHLE MALULEKE
-2          YVONNE ALEXANDER
-3               DAVID BEARD
-4             MPHO NHLABANE
-               ...         
-2243      KENNETH WILKINSON
-2244    Performance Testing
-2245           GERT JORDAAN
-2246          NICOLE NAIDOO
-2247        TEBOGO RATSATSI
-Name: full_name, Length: 2248, dtype: object
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1030         AFSANA ABBUBAKER
+1937       ZAAHID ABDUL HAMID
+1949           WARREN ABRAHAM
+633          DESIREE ABRAHAMS
+1523         STEPHEN ABRAHAMS
+                ...          
+2110       Henry van Deventer
+1104      Charlene van Staden
+2191           Hentus van Wyk
+1703    Theunis van der Stoep
+606       Johan van der Vyver
+Name: full_name, Length: 2247, dtype: object
 </pre></div>
 </div>
-<script type="application/vnd.jupyter.widget-view+json">{"version_major": 2, "version_minor": 0, "model_id": "35de8f3e46e34d6293e0260da7693b06"}</script></div>
+<script type="application/vnd.jupyter.widget-view+json">{"model_id": "9a0ee63423c84ab599e9ac7a6d705fc9", "version_major": 2, "version_minor": 0}</script></div>
 </div>
 <p>Analyzing product types by demographic groups</p>
 <div class="cell docutils container">
@@ -845,149 +900,32 @@ Name: full_name, Length: 2248, dtype: object
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">AttributeError</span><span class="g g-Whitespace">                            </span>Traceback (most recent call last)
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\fuzzywuzzy\process.py</span> in <span class="ni">extractWithoutOrder</span><span class="nt">(query, choices, processor, scorer, score_cutoff)</span>
-<span class="g g-Whitespace">    </span><span class="mi">107</span>         <span class="c1"># See if choices is a dictionary-like object.</span>
-<span class="ne">--&gt; </span><span class="mi">108</span>         <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">choice</span> <span class="ow">in</span> <span class="n">choices</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-<span class="g g-Whitespace">    </span><span class="mi">109</span>             <span class="n">processed</span> <span class="o">=</span> <span class="n">pre_processor</span><span class="p">(</span><span class="n">processor</span><span class="p">(</span><span class="n">choice</span><span class="p">))</span>
-
-<span class="ne">AttributeError</span>: &#39;dict_keys&#39; object has no attribute &#39;items&#39;
-
-<span class="n">During</span> <span class="n">handling</span> <span class="n">of</span> <span class="n">the</span> <span class="n">above</span> <span class="n">exception</span><span class="p">,</span> <span class="n">another</span> <span class="n">exception</span> <span class="n">occurred</span><span class="p">:</span>
-
-<span class="ne">KeyboardInterrupt</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
-<span class="nn">~\AppData\Local\Temp\ipykernel_23744\2491885985.py</span> in <span class="ni">&lt;cell line: 56&gt;</span><span class="nt">()</span>
-<span class="g g-Whitespace">     </span><span class="mi">54</span> 
-<span class="g g-Whitespace">     </span><span class="mi">55</span> <span class="c1"># Apply fuzzy matching</span>
-<span class="ne">---&gt; </span><span class="mi">56</span> <span class="n">df_clients_holdings_assets_users</span><span class="p">[</span><span class="s1">&#39;maritalstatus&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df_clients_holdings_assets_users</span><span class="p">[</span><span class="s1">&#39;maritalstatus&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">process</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">mapping</span><span class="o">.</span><span class="n">keys</span><span class="p">())[</span><span class="mi">0</span><span class="p">])</span>
-<span class="g g-Whitespace">     </span><span class="mi">57</span> 
-<span class="g g-Whitespace">     </span><span class="mi">58</span> <span class="c1"># Replace asset types with standardized asset types using mapping dictionary</span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\series.py</span> in <span class="ni">apply</span><span class="nt">(self, func, convert_dtype, args, **kwargs)</span>
-<span class="g g-Whitespace">   </span><span class="mi">4769</span>         <span class="n">dtype</span><span class="p">:</span> <span class="n">float64</span>
-<span class="g g-Whitespace">   </span><span class="mi">4770</span><span class="w">         </span><span class="sd">&quot;&quot;&quot;</span>
-<span class="ne">-&gt; </span><span class="mi">4771</span><span class="sd">         return SeriesApply(self, func, convert_dtype, args, kwargs).apply()</span>
-<span class="g g-Whitespace">   </span><span class="mi">4772</span><span class="sd"> </span>
-<span class="g g-Whitespace">   </span><span class="mi">4773</span><span class="sd">     def _reduce(</span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\apply.py</span> in <span class="ni">apply</span><span class="nt">(self)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1121</span><span class="sd"> </span>
-<span class="g g-Whitespace">   </span><span class="mi">1122</span><span class="sd">         # self.f is Callable</span>
-<span class="ne">-&gt; </span><span class="mi">1123</span><span class="sd">         return self.apply_standard()</span>
-<span class="g g-Whitespace">   </span><span class="mi">1124</span><span class="sd"> </span>
-<span class="g g-Whitespace">   </span><span class="mi">1125</span><span class="sd">     def agg(self):</span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\apply.py</span> in <span class="ni">apply_standard</span><span class="nt">(self)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1172</span><span class="sd">             else:</span>
-<span class="g g-Whitespace">   </span><span class="mi">1173</span><span class="sd">                 values = obj.astype(object)._values</span>
-<span class="ne">-&gt; </span><span class="mi">1174</span><span class="sd">                 mapped = lib.map_infer(</span>
-<span class="g g-Whitespace">   </span><span class="mi">1175</span><span class="sd">                     values,</span>
-<span class="g g-Whitespace">   </span><span class="mi">1176</span><span class="sd">                     f,</span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\_libs\lib.pyx</span> in <span class="ni">pandas._libs.lib.map_infer</span><span class="nt">()</span>
-
-<span class="nn">~\AppData\Local\Temp\ipykernel_23744\2491885985.py</span> in <span class="ni">&lt;lambda&gt;</span><span class="nt">(x)</span>
-<span class="g g-Whitespace">     </span><span class="mi">54</span><span class="sd"> </span>
-<span class="g g-Whitespace">     </span><span class="mi">55</span><span class="sd"> # Apply fuzzy matching</span>
-<span class="ne">---&gt; </span><span class="mi">56</span><span class="sd"> df_clients_holdings_assets_users[&#39;maritalstatus&#39;] = df_clients_holdings_assets_users[&#39;maritalstatus&#39;].apply(lambda x: process.extractOne(x, mapping.keys())[0])</span>
-<span class="g g-Whitespace">     </span><span class="mi">57</span><span class="sd"> </span>
-<span class="g g-Whitespace">     </span><span class="mi">58</span><span class="sd"> # Replace asset types with standardized asset types using mapping dictionary</span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\fuzzywuzzy\process.py</span> in <span class="ni">extractOne</span><span class="nt">(query, choices, processor, scorer, score_cutoff)</span>
-<span class="g g-Whitespace">    </span><span class="mi">218</span><span class="sd">     best_list = extractWithoutOrder(query, choices, processor, scorer, score_cutoff)</span>
-<span class="g g-Whitespace">    </span><span class="mi">219</span><span class="sd">     try:</span>
-<span class="ne">--&gt; </span><span class="mi">220</span><span class="sd">         return max(best_list, key=lambda i: i[1])</span>
-<span class="g g-Whitespace">    </span><span class="mi">221</span><span class="sd">     except ValueError:</span>
-<span class="g g-Whitespace">    </span><span class="mi">222</span><span class="sd">         return None</span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\fuzzywuzzy\process.py</span> in <span class="ni">extractWithoutOrder</span><span class="nt">(query, choices, processor, scorer, score_cutoff)</span>
-<span class="g g-Whitespace">    </span><span class="mi">115</span><span class="sd">         for choice in choices:</span>
-<span class="g g-Whitespace">    </span><span class="mi">116</span><span class="sd">             processed = pre_processor(processor(choice))</span>
-<span class="ne">--&gt; </span><span class="mi">117</span><span class="sd">             score = scorer(processed_query, processed)</span>
-<span class="g g-Whitespace">    </span><span class="mi">118</span><span class="sd">             if score &gt;= score_cutoff:</span>
-<span class="g g-Whitespace">    </span><span class="mi">119</span><span class="sd">                 yield (choice, score)</span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\fuzzywuzzy\fuzz.py</span> in <span class="ni">WRatio</span><span class="nt">(s1, s2, force_ascii, full_process)</span>
-<span class="g g-Whitespace">    </span><span class="mi">287</span><span class="sd">     if try_partial:</span>
-<span class="g g-Whitespace">    </span><span class="mi">288</span><span class="sd">         partial = partial_ratio(p1, p2) * partial_scale</span>
-<span class="ne">--&gt; </span><span class="mi">289</span><span class="sd">         ptsor = partial_token_sort_ratio(p1, p2, full_process=False) \</span>
-<span class="g g-Whitespace">    </span><span class="mi">290</span><span class="sd">             * unbase_scale * partial_scale</span>
-<span class="g g-Whitespace">    </span><span class="mi">291</span><span class="sd">         ptser = partial_token_set_ratio(p1, p2, full_process=False) \</span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\fuzzywuzzy\fuzz.py</span> in <span class="ni">partial_token_sort_ratio</span><span class="nt">(s1, s2, force_ascii, full_process)</span>
-<span class="g g-Whitespace">    </span><span class="mi">110</span><span class="sd">     0 and 100 but sorting the token before comparing.</span>
-<span class="g g-Whitespace">    </span><span class="mi">111</span><span class="sd">     &quot;&quot;&quot;</span>
-<span class="ne">--&gt; </span><span class="mi">112</span>     <span class="k">return</span> <span class="n">_token_sort</span><span class="p">(</span><span class="n">s1</span><span class="p">,</span> <span class="n">s2</span><span class="p">,</span> <span class="n">partial</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">force_ascii</span><span class="o">=</span><span class="n">force_ascii</span><span class="p">,</span> <span class="n">full_process</span><span class="o">=</span><span class="n">full_process</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">113</span> 
-<span class="g g-Whitespace">    </span><span class="mi">114</span> 
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\fuzzywuzzy\utils.py</span> in <span class="ni">decorator</span><span class="nt">(*args, **kwargs)</span>
-<span class="g g-Whitespace">     </span><span class="mi">36</span>         <span class="k">if</span> <span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">args</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
-<span class="g g-Whitespace">     </span><span class="mi">37</span>             <span class="k">return</span> <span class="mi">0</span>
-<span class="ne">---&gt; </span><span class="mi">38</span>         <span class="k">return</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">39</span>     <span class="k">return</span> <span class="n">decorator</span>
-<span class="g g-Whitespace">     </span><span class="mi">40</span> 
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\fuzzywuzzy\fuzz.py</span> in <span class="ni">_token_sort</span><span class="nt">(s1, s2, partial, force_ascii, full_process)</span>
-<span class="g g-Whitespace">     </span><span class="mi">94</span> 
-<span class="g g-Whitespace">     </span><span class="mi">95</span>     <span class="k">if</span> <span class="n">partial</span><span class="p">:</span>
-<span class="ne">---&gt; </span><span class="mi">96</span>         <span class="k">return</span> <span class="n">partial_ratio</span><span class="p">(</span><span class="n">sorted1</span><span class="p">,</span> <span class="n">sorted2</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">97</span>     <span class="k">else</span><span class="p">:</span>
-<span class="g g-Whitespace">     </span><span class="mi">98</span>         <span class="k">return</span> <span class="n">ratio</span><span class="p">(</span><span class="n">sorted1</span><span class="p">,</span> <span class="n">sorted2</span><span class="p">)</span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\fuzzywuzzy\utils.py</span> in <span class="ni">decorator</span><span class="nt">(*args, **kwargs)</span>
-<span class="g g-Whitespace">     </span><span class="mi">36</span>         <span class="k">if</span> <span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="n">args</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
-<span class="g g-Whitespace">     </span><span class="mi">37</span>             <span class="k">return</span> <span class="mi">0</span>
-<span class="ne">---&gt; </span><span class="mi">38</span>         <span class="k">return</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">39</span>     <span class="k">return</span> <span class="n">decorator</span>
-<span class="g g-Whitespace">     </span><span class="mi">40</span> 
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\fuzzywuzzy\utils.py</span> in <span class="ni">decorator</span><span class="nt">(*args, **kwargs)</span>
-<span class="g g-Whitespace">     </span><span class="mi">27</span>         <span class="k">if</span> <span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">args</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span>
-<span class="g g-Whitespace">     </span><span class="mi">28</span>             <span class="k">return</span> <span class="mi">100</span>
-<span class="ne">---&gt; </span><span class="mi">29</span>         <span class="k">return</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">30</span>     <span class="k">return</span> <span class="n">decorator</span>
-<span class="g g-Whitespace">     </span><span class="mi">31</span> 
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\fuzzywuzzy\utils.py</span> in <span class="ni">decorator</span><span class="nt">(*args, **kwargs)</span>
-<span class="g g-Whitespace">     </span><span class="mi">45</span>         <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-<span class="g g-Whitespace">     </span><span class="mi">46</span>             <span class="k">return</span> <span class="mi">0</span>
-<span class="ne">---&gt; </span><span class="mi">47</span>         <span class="k">return</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">48</span>     <span class="k">return</span> <span class="n">decorator</span>
-<span class="g g-Whitespace">     </span><span class="mi">49</span> 
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\site-packages\fuzzywuzzy\fuzz.py</span> in <span class="ni">partial_ratio</span><span class="nt">(s1, s2)</span>
-<span class="g g-Whitespace">     </span><span class="mi">60</span> 
-<span class="g g-Whitespace">     </span><span class="mi">61</span>         <span class="n">m2</span> <span class="o">=</span> <span class="n">SequenceMatcher</span><span class="p">(</span><span class="kc">None</span><span class="p">,</span> <span class="n">shorter</span><span class="p">,</span> <span class="n">long_substr</span><span class="p">)</span>
-<span class="ne">---&gt; </span><span class="mi">62</span>         <span class="n">r</span> <span class="o">=</span> <span class="n">m2</span><span class="o">.</span><span class="n">ratio</span><span class="p">()</span>
-<span class="g g-Whitespace">     </span><span class="mi">63</span>         <span class="k">if</span> <span class="n">r</span> <span class="o">&gt;</span> <span class="mf">.995</span><span class="p">:</span>
-<span class="g g-Whitespace">     </span><span class="mi">64</span>             <span class="k">return</span> <span class="mi">100</span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\difflib.py</span> in <span class="ni">ratio</span><span class="nt">(self)</span>
-<span class="g g-Whitespace">    </span><span class="mi">617</span>         <span class="s2">&quot;&quot;&quot;</span>
-<span class="g g-Whitespace">    </span><span class="mi">618</span><span class="s2"> </span>
-<span class="nn">--&gt; 619         matches = sum(triple[-1] for triple</span> in <span class="ni">self.get_matching_blocks</span><span class="nt">())</span>
-<span class="g g-Whitespace">    </span><span class="mi">620</span><span class="s2">         return _calculate_ratio(matches, len(self.a) + len(self.b))</span>
-<span class="g g-Whitespace">    </span><span class="mi">621</span><span class="s2"> </span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\difflib.py</span> in <span class="ni">get_matching_blocks</span><span class="nt">(self)</span>
-<span class="g g-Whitespace">    </span><span class="mi">452</span><span class="s2">         while queue:</span>
-<span class="g g-Whitespace">    </span><span class="mi">453</span><span class="s2">             alo, ahi, blo, bhi = queue.pop()</span>
-<span class="ne">--&gt; </span><span class="mi">454</span><span class="s2">             i, j, k = x = self.find_longest_match(alo, ahi, blo, bhi)</span>
-<span class="g g-Whitespace">    </span><span class="mi">455</span><span class="s2">             # a[alo:i] vs b[blo:j] unknown</span>
-<span class="g g-Whitespace">    </span><span class="mi">456</span><span class="s2">             # a[i:i+k] same as b[j:j+k]</span>
-
-<span class="nn">~\AppData\Local\Programs\Python\Python310\lib\difflib.py</span> in <span class="ni">find_longest_match</span><span class="nt">(self, alo, ahi, blo, bhi)</span>
-<span class="g g-Whitespace">    </span><span class="mi">381</span><span class="s2">                 if j &lt; blo:</span>
-<span class="g g-Whitespace">    </span><span class="mi">382</span><span class="s2">                     continue</span>
-<span class="ne">--&gt; </span><span class="mi">383</span><span class="s2">                 if j &gt;= bhi:</span>
-<span class="g g-Whitespace">    </span><span class="mi">384</span><span class="s2">                     break</span>
-<span class="g g-Whitespace">    </span><span class="mi">385</span><span class="s2">                 k = newj2len[j] = j2lenget(j-1, 0) + 1</span>
-
-<span class="ne">KeyboardInterrupt</span>: 
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[None &#39;Male&#39; &#39;Female&#39; &#39;None&#39;]
+Marital Status                                        Gender    Most Common Asset Type
+----------------------------------------------------  --------  ------------------------
+In Community of Property                              Female    Thailand
+In Community of Property                              Male      Thailand
+Male Common Law                                       Female    Sandton
+Male Common Law                                       Male      Primary Residence
+Male Divorced                                         Female    Golf
+Male Divorced                                         Male      Golf
+Male Engaged                                          Female    Golf
+Male Engaged                                          Male      Golf
+Male Married                                          Male      Livestock
+Male Single                                           Female    Golf
+Male Single                                           Male      Golf
+Male Single                                           None      Golf
+Male Widowed                                          Female    Golf
+Male Widowed                                          Male      Golf
+Married In Community of Property                      Female    Other Property
+Married In Community of Property                      Male      Sandton
+Married Out of Community of Property with Accrual     Female    Golf
+Married Out of Community of Property with Accrual     Male      Golf
+Married Out of Community of Property without Accrual  Female    Golf
+Married Out of Community of Property without Accrual  Male      Golf
 </pre></div>
 </div>
+<img alt="_images/97f08a23fad18540f43098795024f0e39538a5bcd09b579ac26a22686088018b.png" src="_images/97f08a23fad18540f43098795024f0e39538a5bcd09b579ac26a22686088018b.png" />
 </div>
 </div>
 <div class="alert alert-block alert-info">
@@ -1043,6 +981,24 @@ Name: full_name, Length: 2248, dtype: object
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">title: AvalonDataLab
+description: Exploring Avalon data
+show-code: False</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#avalon-datalab">Avalon DataLab</a></li>
+</ul>
+
+  </nav></div>
+
+</div></div>
               
             
           </div>
